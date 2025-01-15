@@ -3,7 +3,7 @@
     <img src="assets/icon/icon-main.svg" class="standby__icon" />
     <ng-container *ngIf="!actionsVisible && !connecting">
       <span class="standby__text-big">Kevin has yet to send a print job.</span>
-      <span class="standby__text-small">Press on the screen to wake me up again.</span>
+      <span class="standby__text-small">Press on the screen to see print status.</span>
     </ng-container>
     <ng-container *ngIf="actionsVisible && !connecting">
       <span class="standby__text-big" *ngIf="actionsVisible"> sleeping ... </span>
