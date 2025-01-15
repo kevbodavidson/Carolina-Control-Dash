@@ -29,7 +29,7 @@
 ## Installation
 
 ```
-bash <(wget -qO- https://github.com/UnchartedBull/OctoDash/raw/main/scripts/install.sh)
+bash <(wget -qO- https://github.com/kevbodavidson/OctoDash/raw/main/scripts/install.sh)
 ```
 
 _Execute this command as the user that logs in on the display (usually `pi`) and not as `root` or with `sudo`._ For more options and information have a look at the [wiki](https://github.com/UnchartedBull/OctoDash/wiki/Installation).
