@@ -2,7 +2,7 @@
   <div (click)="reconnect()" class="standby__main-window" [ngStyle]="{ 'flex-basis': actionsVisible ? '54%' : '94%' }">
     <img src="assets/icon/icon-main.svg" class="standby__icon" />
     <ng-container *ngIf="!actionsVisible && !connecting">
-      <span class="standby__text-big">Shhh! OctoDash is sleeping.</span>
+      <span class="standby__text-big">Kevin has yet to send a print job.</span>
       <span class="standby__text-small">Press on the screen to wake me up again.</span>
     </ng-container>
     <ng-container *ngIf="actionsVisible && !connecting">
